@@ -1,0 +1,20 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+}
+
+group 'rpg.oracle'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation("org.mongodb:mongodb-driver-reactivestreams:4.1.1")
+    implementation("org.mongodb:mongodb-driver-sync:4.1.1")
+    compileOnly "org.spigotmc:spigot-api:${mc_version}-R0.1-SNAPSHOT"
+}

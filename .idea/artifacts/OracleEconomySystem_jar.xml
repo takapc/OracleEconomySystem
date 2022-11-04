@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OracleEconomySystem:jar">
+    <output-path>$USER_HOME$/Documents/MinecraftServers/PL-Test-Server/plugins</output-path>
+    <root id="archive" name="OracleEconomySystem.jar">
+      <element id="module-output" name="OracleEconomySystem.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/4.0.5/437a0a4a81ffecd5fd92bbc586842cf9f8f265d6/bson-4.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/4.0.5/7821f471ba77f582f577e726f2c16f0c21576c6b/mongodb-driver-core-4.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-sync/4.0.5/8b9ca4d604954f9073bfce778a187fa398cf0365/mongodb-driver-sync-4.0.5.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="module-source" name="OracleEconomySystem.main" />
+    </root>
+  </artifact>
+</component>
