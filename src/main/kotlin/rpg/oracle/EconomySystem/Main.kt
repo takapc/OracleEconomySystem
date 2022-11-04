@@ -8,6 +8,7 @@ class Main: JavaPlugin() {
         logger.info("Hello Oracle!")
 
         System.setProperty("java.net.preferIPv4Stack" , "true")
+        logger.info("Connecting to mongodb://" + System.getenv("USER") + ":" + System.getenv("PASSWORD") + "@" + System.getenv("CLUSTER") + ".nkyz1vd.mongodb.net/")
         val connectionString = "mongodb://" + System.getenv("USER") + ":" + System.getenv("PASSWORD") + "@" + System.getenv("CLUSTER") + ".nkyz1vd.mongodb.net/"
         val mongoClient = MongoClients.create(connectionString)
         val database = mongoClient.getDatabase("UserInformation")
